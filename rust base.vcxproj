@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config\config.cpp" />
+    <ClCompile Include="driver\driver\driver.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat\features\aimbot.hpp" />
+    <ClInclude Include="config\archivex.hpp" />
+    <ClInclude Include="menu\byte.h" />
+    <ClInclude Include="config\config.hpp" />
+    <ClInclude Include="cheat\classes\c_admin.h" />
+    <ClInclude Include="cheat\classes\c_ammo_definition.h" />
+    <ClInclude Include="cheat\classes\c_base_collision.h" />
+    <ClInclude Include="cheat\classes\c_base_combat_entity.h" />
+    <ClInclude Include="cheat\classes\c_base_entity.h" />
+    <ClInclude Include="cheat\classes\c_base_mountable.h" />
+    <ClInclude Include="cheat\classes\c_base_movement.h" />
+    <ClInclude Include="cheat\classes\c_base_networkable.h" />
+    <ClInclude Include="cheat\classes\c_base_player.h" />
+    <ClInclude Include="cheat\classes\c_groups.h" />
+    <ClInclude Include="cheat\classes\c_hit_test.h" />
+    <ClInclude Include="cheat\classes\c_item.h" />
+    <ClInclude Include="cheat\classes\c_item_container.h" />
+    <ClInclude Include="cheat\classes\c_item_list.h" />
+    <ClInclude Include="cheat\classes\c_skinnable.h" />
+    <ClInclude Include="cheat\classes\c_skin_type.h" />
+    <ClInclude Include="cheat\classes\c_unity.h" />
+    <ClInclude Include="cheat\classes\c_weapon_bob.h" />
+    <ClInclude Include="cheat\classes\c_weapon_lower.h" />
+    <ClInclude Include="cheat\classes\c_weapon_punch.h" />
+    <ClInclude Include="cheat\classes\c_weapon_sway.h" />
+    <ClInclude Include="cheat\classes\c_weapon_view_model.h" />
+    <ClInclude Include="cheat\classes\c_camera.h" />
+    <ClInclude Include="cheat\classes\c_capsule_collider.h" />
+    <ClInclude Include="cheat\classes\c_convar_admin.h" />
+    <ClInclude Include="cheat\classes\c_convar_client.h" />
+    <ClInclude Include="cheat\classes\c_convar_graphics.h" />
+    <ClInclude Include="cheat\classes\c_held_item.h" />
+    <ClInclude Include="cheat\classes\c_input_message.h" />
+    <ClInclude Include="cheat\classes\c_input_state.h" />
+    <ClInclude Include="cheat\classes\c_item_definition.h" />
+    <ClInclude Include="cheat\classes\c_item_projectile_mod.h" />
+    <ClInclude Include="cheat\classes\c_magazine.h" />
+    <ClInclude Include="cheat\classes\c_model.h" />
+    <ClInclude Include="cheat\classes\c_model_state.h" />
+    <ClInclude Include="cheat\classes\c_object.h" />
+    <ClInclude Include="cheat\classes\c_object_class.h" />
+    <ClInclude Include="cheat\classes\c_player_belt.h" />
+    <ClInclude Include="cheat\classes\c_player_eyes.h" />
+    <ClInclude Include="cheat\classes\c_player_input.h" />
+    <ClInclude Include="cheat\classes\c_player_inventory.h" />
+    <ClInclude Include="cheat\classes\c_player_model.h" />
+    <ClInclude Include="cheat\classes\c_player_tick.h" />
+    <ClInclude Include="cheat\classes\c_projectile.h" />
+    <ClInclude Include="cheat\classes\c_recoil_properties.h" />
+    <ClInclude Include="cheat\classes\c_rigid_body.h" />
+    <ClInclude Include="cheat\classes\c_skinset_collection.h" />
+    <ClInclude Include="cheat\classes\c_skin_set.h" />
+    <ClInclude Include="cheat\classes\c_time.h" />
+    <ClInclude Include="cheat\classes\c_tod_components.h" />
+    <ClInclude Include="cheat\classes\c_tod_scattering.h" />
+    <ClInclude Include="cheat\classes\c_tod_sky.h" />
+    <ClInclude Include="cheat\classes\c_transform.h" />
+    <ClInclude Include="cheat\classes\c_view_model.h" />
+    <ClInclude Include="cheat\features\entityloop\drawing.hpp" />
+    <ClInclude Include="driver\driver\driver.hpp" />
+    <ClInclude Include="cheat\features\entityloop\entityloop.hpp" />
+    <ClInclude Include="driver\string\estr.hpp" />
+    <ClInclude Include="menu\font.h" />
+    <ClInclude Include="imgui\globals.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="driver\imports.hpp" />
+    <ClInclude Include="imgui\ImSpinner.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="driver\string\lazy.h" />
+    <ClInclude Include="cheat\features\localplayer.hpp" />
+    <ClInclude Include="cheat\systems\math.hpp" />
+    <ClInclude Include="driver\memory.hpp" />
+    <ClInclude Include="cheat\systems\offsets.hpp" />
+    <ClInclude Include="driver\string\skcrypt.h" />
+    <ClInclude Include="cheat\systems\systems.hpp" />
+    <ClInclude Include="cheat\features\visuals.hpp" />
+    <ClInclude Include="menu\window.hpp" />
+    <ClInclude Include="driver\string\xor.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\imgui.ini" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a9772b90-e7ad-4b99-9b70-cda1f3cd1404}</ProjectGuid>
+    <RootNamespace>rainyrustexternal</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Rust External Base</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\sources\Rust External Base\cheat\classes;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;D:\sources\Rust External Base\menu;D:\sources\Rust External Base\imgui;D:\sources\Rust External Base\driver;D:\sources\Rust External Base\driver\string;D:\sources\Rust External Base\driver\driver;D:\sources\Rust External Base\config;D:\sources\Rust External Base\cheat;D:\sources\Rust External Base\cheat\systems;D:\sources\Rust External Base\cheat\features;D:\sources\Rust External Base\cheat\features\entityloop;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\DirectX\DirectX9\Lib;C:\DirectX9\Lib;$(LibraryPath);C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\</OutDir>
+    <IntDir>$(SolutionDir)\Temp\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_x64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\sources\Rust External Base\menu;D:\sources\Rust External Base\imgui;D:\sources\Rust External Base\driver\string;D:\sources\Rust External Base\driver\driver;D:\sources\Rust External Base\driver;D:\sources\Rust External Base\config;D:\sources\Rust External Base\cheat\features\entityloop;D:\sources\Rust External Base\cheat\features;D:\sources\Rust External Base\cheat\classes;D:\sources\Rust External Base\cheat;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Full</Optimization>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PrecompiledHeader />
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <AdditionalOptions>-Xclang -flegacy-pass-manager -mllvm -sub -mllvm -split -mllvm -fla -mllvm -bcf %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalOptions>/NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
